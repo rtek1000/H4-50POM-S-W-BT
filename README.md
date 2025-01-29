@@ -11,7 +11,7 @@ H4-50POM-S/W/BT - IP Camera (Manufactured by EsunStar co., LTD)
 - Sensor Brand: Omnivision
 - Lens (mm): 3.3-97mm
 - Optical Zoom: 30x
-- Digital Zoom: 8x
+- Digital Zoom: 6x
 - Megapixels: 4MP
 - Video Compression Format: H.264, H.265
 - Minimum Illumination(Lux): 0.3

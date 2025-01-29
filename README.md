@@ -137,10 +137,9 @@ Note: This library is distributed in the hope that it will be useful, but WITHOU
 Pelco D output sample (Captured with Hercules program):
 Via Website (http://'ip_camera_address') [ip_camera_address: 192.168.1.112 etc]
 
-Notes:
-- All '{xx}' data is in hexadecimal value
-- The stop command is sent when the button is released.
-- The function command is sent only once when the button is pressed.
+Note 1: All '{xx}' data is in hexadecimal value
+Note 2: The function command is sent only once when the button is pressed.
+Note 3: The stop command is sent when the button is released.
 
 - Stop:
 - - {FF}{01}{00}{00}{00}{00}{01}

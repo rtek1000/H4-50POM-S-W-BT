@@ -143,7 +143,7 @@ Note 2: The function command is sent only once when the button is pressed.
 
 Note 3: The stop command is sent when the button is released.
 
-### Data sent when control is done via browser
+### Data sent when control is done via browser:
 (http://'ip_camera_address') [ip_camera_address: 192.168.1.112 etc]
 
 - Stop:
@@ -184,7 +184,7 @@ Right:
 - - {FF}{01}{00}{05}{00}{02}{08}
 
 
-### Data sent when control is done via VMS program
+### Data sent when control is done via VMS program:
 (XMEye VMS v2.0.1.18; Windows executable program)
 
 - Stop:
@@ -211,13 +211,13 @@ Right:
 - Zoom-:
 - - {FF}{01}{00}{40}{00}{00}{41}
 - Focus+:
-- - NONE (BUG)
+- - Does not send command, just sends stop (BUG)
 - Focus-:
-- - NONE (BUG)
+- - Does not send command, just sends stop (BUG)
 - Iris+:
-- - NONE (BUG)
+- - Does not send command, just sends stop (BUG)
 - Iris-:
-- - NONE (BUG)
+- - Does not send command, just sends stop (BUG)
 - Preset1 (set):
 - - {FF}{01}{00}{03}{00}{01}{05}
 - Preset1 (goto):

@@ -129,3 +129,129 @@ Usage Notes:
 - The camera's PTZ setting must be left activated at 57600 baud and Pelco D type, otherwise the interface board will not recognize the commands and the optical zoom will not work.
 - The main board has connectors (CN4, CN5) for 5-wire horizontal and vertical motors (12V positive power derived from the power input after protection diode). These connectors (CN4, CN5) only work when the camera is powered, but after initialization the PTZ controls do not drive these motors.
 - Only the Pelco D output (9600 baud) available on the CN9 connector sends signal in TX. The Sony Visca output (9600 baud) does not work.
+
+-----
+
+Pelco D output sample (Captured with Hercules program):
+Via Website (http://'ip_camera_address') [ip_camera_address: 192.168.1.112 etc]
+
+Note: All '{xx}' data is in hexadecimal value
+
+- Stop:
+- - {FF}{01}{00}{00}{00}{00}{01}
+
+- Up:
+- - {FF}{01}{00}{08}{00}{06}{0F} (step 1)
+- - {FF}{01}{00}{08}{00}{0C}{15} (step 2)
+- - {FF}{01}{00}{08}{00}{3F}{48} (step 10)
+
+- Down:
+- - {FF}{01}{00}{10}{00}{06}{17} (step 1)
+
+- Left:
+- - {FF}{01}{00}{04}{06}{00}{0B} (step 1)
+
+Right:
+- - {FF}{01}{00}{02}{06}{00}{09} (step 1)
+
+- Zoom+:
+- - {FF}{01}{00}{20}{00}{00}{21}
+
+- Zoom-:
+- - {FF}{01}{00}{40}{00}{00}{41}
+
+- Focus+:
+- - {FF}{01}{01}{00}{00}{00}{02}
+
+- Focus-:
+- - {FF}{01}{00}{80}{00}{00}{81}
+
+- Iris+:
+- - {FF}{01}{02}{00}{00}{00}{03}
+
+- Iris-:
+- - {FF}{01}{04}{00}{00}{00}{05}
+
+- Preset1 (set):
+- - {FF}{01}{00}{03}{00}{01}{05}
+
+- Preset1 (goto):
+- - {FF}{01}{00}{07}{00}{01}{09}
+
+- Preset1 (erase):
+- - {FF}{01}{00}{05}{00}{01}{07}
+
+- Preset2 (set):
+- - {FF}{01}{00}{03}{00}{02}{06}
+
+- Preset2 (goto):
+- - {FF}{01}{00}{07}{00}{02}{0A}
+
+- Preset2 (erase):
+- - {FF}{01}{00}{05}{00}{02}{08}
+
+
+Via VMS (XMEye VMS v2.0.1.18)
+- Stop:
+- - {FF}{01}{00}{00}{00}{00}{01}
+
+- Up:
+- - {FF}{01}{00}{08}{00}{06}{0F} (step 1)
+- - {FF}{01}{00}{08}{00}{32}{3B} (step 8)
+
+- - Down:
+{FF}{01}{00}{10}{00}{06}{17} (step 1)
+
+- Left:
+- - {FF}{01}{00}{04}{06}{00}{0B} (step 1)
+
+- Right:
+- - {FF}{01}{00}{02}{06}{00}{09} (step 1)
+
+- Up-L:
+- - {FF}{01}{00}{04}{06}{00}{0B}   {FF}{01}{00}{08}{00}{06}{0F} (step 1)
+
+- Up-R:
+- - {FF}{01}{00}{02}{06}{00}{09}   {FF}{01}{00}{08}{00}{06}{0F} (step 1)
+
+- Dn-L:
+- - {FF}{01}{00}{04}{06}{00}{0B}   {FF}{01}{00}{10}{00}{06}{17} (step 1)
+
+- Dn-R:
+- - {FF}{01}{00}{02}{06}{00}{09}   {FF}{01}{00}{10}{00}{06}{17} (step 1)
+
+- Zoom+:
+- - {FF}{01}{00}{20}{00}{00}{21}
+
+- Zoom-:
+- - {FF}{01}{00}{40}{00}{00}{41}
+
+- Focus+:
+- - NONE (BUG)
+
+- Focus-:
+- - NONE (BUG)
+
+- Iris+:
+- - NONE (BUG)
+
+- Iris-:
+- - NONE (BUG)
+
+- Preset1 (set):
+- - {FF}{01}{00}{03}{00}{01}{05}
+
+- Preset1 (goto):
+- - {FF}{01}{00}{07}{00}{01}{09}
+
+- Preset1 (erase):
+- - {FF}{01}{00}{05}{00}{01}{07}
+
+- Preset2 (set):
+- - {FF}{01}{00}{03}{00}{02}{06}
+
+- Preset2 (goto):
+- - {FF}{01}{00}{07}{00}{02}{0A}
+
+- Preset2 (erase):
+- - {FF}{01}{00}{05}{00}{02}{08}

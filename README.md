@@ -130,13 +130,17 @@ Note: This library is distributed in the hope that it will be useful, but WITHOU
 - The main board has connectors (CN4, CN5) for 5-wire horizontal and vertical motors (12V positive power derived from the power input after protection diode). These connectors (CN4, CN5) only work when the camera is powered, but after initialization the PTZ controls do not drive these motors.
 - Only the Pelco D output (9600 baud) available on the CN9 connector sends signal in TX. The Sony Visca output (9600 baud) does not work.
 - Wired connection (RJ45) has priority over wireless connection (Wi-Fi)
+- Sometimes the PTZ stop command may not be recognized by the Zoom/Focus controller interface. In this case, it is necessary to press the button again to send a new stop command. 
   
 -----
 
 Pelco D output sample (Captured with Hercules program):
 Via Website (http://'ip_camera_address') [ip_camera_address: 192.168.1.112 etc]
 
-Note: All '{xx}' data is in hexadecimal value
+Notes:
+- All '{xx}' data is in hexadecimal value
+- The stop command is sent when the button is released.
+- The function command is sent only once when the button is pressed.
 
 - Stop:
 - - {FF}{01}{00}{00}{00}{00}{01}

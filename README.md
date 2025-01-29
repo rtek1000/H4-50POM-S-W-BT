@@ -135,7 +135,7 @@ Note: This library is distributed in the hope that it will be useful, but WITHOU
 -----
 
 ## Pelco D output sample
-(Captured with Hercules program)
+(Captured using Hercules program)
 
 Via Website (http://'ip_camera_address') [ip_camera_address: 192.168.1.112 etc]
 

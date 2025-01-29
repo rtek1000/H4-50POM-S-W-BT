@@ -116,7 +116,7 @@ Interface
 General specification
 - Power: Max 3W
 - Working: -35℃-65℃; humidity is less than 90%
-- Protection grade: IP66 (When mounted in the specific cabinet); TVS 4000V lightning protection, anti-surge, anti-surge, in line with GB/T17626.5 level four standards
+- Protection grade: IP66 (When mounted in the specific cabinet [P03Z35LWP4T20 ?]); TVS 4000V lightning protection, anti-surge, anti-surge, in line with GB/T17626.5 level four standards
 - Weight: 0.3KG
 
 -----

@@ -184,7 +184,9 @@ Right:
 - - {FF}{01}{00}{05}{00}{02}{08}
 
 
-### Data sent when control is done via VMS program (XMEye VMS v2.0.1.18; Executable Windows program)
+### Data sent when control is done via VMS program
+(XMEye VMS v2.0.1.18; Windows executable program)
+
 - Stop:
 - - {FF}{01}{00}{00}{00}{00}{01}
 - Up:

@@ -119,8 +119,6 @@ General specification
 - Protection grade: IP66 (When mounted in the specific cabinet); TVS 4000V lightning protection, anti-surge, anti-surge, in line with GB/T17626.5 level four standards
 - Weight: 0.3KG
 
-![img](https://raw.githubusercontent.com/rtek1000/H4-50POM-S-W-BT/refs/heads/main/Img/IP_Cam3.png)
-
 -----
 
 Note: This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE
@@ -130,6 +128,9 @@ Note: This library is distributed in the hope that it will be useful, but WITHOU
 -----
 
 # Usage Notes:
+
+![img](https://raw.githubusercontent.com/rtek1000/H4-50POM-S-W-BT/refs/heads/main/Img/IP_Cam3.png)
+
 - The camera's PTZ setting must be left activated at 57600 baud and Pelco D type (address 1), otherwise the interface board will not recognize the commands and the optical zoom will not work.
 - The main board has connectors (CN4, CN5) for 5-wire horizontal and vertical motors (12V positive power derived from the power input after protection diode). These connectors (CN4, CN5) only work when the camera is powered, but after initialization the PTZ controls do not drive these motors.
 - Only the Pelco D output (9600 baud) available on the CN9 connector sends signal in TX. The Sony Visca output (9600 baud) does not work.

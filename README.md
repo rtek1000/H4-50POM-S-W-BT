@@ -154,6 +154,8 @@ Note 4: Pelco D basic protocol: {Header/Sync: 0xFF} {Addr} {Cmd1} {Cmd2} {Dat1} 
 
 Note 5: 'Step' is a parameter of the controller screen
 
+Note 6: PTZ control via browser does not send commands in intermediate positions (combining horizontal and vertical at the same time). For example, up and to the side (top corner).
+
 ### Data sent when control is done via browser:
 (http://'ip_camera_address') [ip_camera_address: 192.168.1.112 etc]
 

@@ -18,7 +18,7 @@ H4-50POM-S/W/BT - IP Camera (EsunStar co., LTD)
 - Video Compression Format: H.264, H.265
 - Minimum Illumination(Lux): 0.3
 - Certification: CE
-- Supported Operating Systems: Windows Vista, Windows 7, Windows 2008
+- Supported Operating Systems: Windows Vista, Windows 7, Windows 2008 (works on Windows 11 using browser or VMS)
 
 -----
 

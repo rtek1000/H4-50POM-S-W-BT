@@ -48,3 +48,71 @@ You can use Preset Turn ON/OFF tracking too:
 
 -----
 
+Basic parameters (M-H4W-Y4X)
+
+- Chip solution: Hisilicon
+
+- Minimum illumination: Color:0.03Lux @(F1.8,AGC ON);B/W:0Lux @(F1.8,AGC ON),0 Lux with IR
+- Resolution frame rate:
+- - Main stream:25fps(2560×1440,2304×1296,1920×1080,1280×960,1280×720)
+- - Substream:25fps(800×448,640×360,352×288)
+- Video Encoding format: H.265+/H.265/H.264
+- Audio Encoding format: G711
+- IR night vision: Support
+- White balance: Incandescent lamp, warm light, fluorescent lamp, natural light, manual white balance, auto white balance, lock white balance
+- Anti-flash mode: 50HZ, 60HZ, OFF
+- Aperture type: Manual aperture, auto iris
+- Exposure time: Auto, 1/25, 1/35, 1/40, 1/50, 1/60, 1/100, 1/120, 1/240, 1/480, 1/960, 1/1000, 1/2000, 1/4000, 1/8000, 1/10000, 1/100000
+- Gain: Auto, 6Db, 12dB, 18dB, 24dB, 30dB, 36dB, 42dB
+- 3D noise reduction: Auto, weak, general, strong
+- BLC: OFF/ON
+- WDR: Auto, weak, general, strong
+- IR Image mode: Standard mode, Face without exposure, License plate mode
+- Digital ZOOM: Support 6X digital zoom
+- Focus mode: Fully automatic, semi-automatic, manual
+
+LENS
+- focal length: 3.3-97mm, 30X Optics ZOOM, support 6x digital zoom, Total 180x zoom
+- Zoom speed: about 6 seconds (optical, wide-angle-telephoto)
+- Horizontal-viewing angle: About 63-2 degrees (wide angle-telephoto)
+- Close-up distance: 1.5-100meters (wide angle-telephoto)
+- Number of aperture: F1.4-F2.5
+
+Features
+- Smart Detect: Face and humaniod detection, area intrusion detection, cross-border detection, entering area detection, fast motion detection, motion detection, video occlusion detection
+- Smart record: Motion detection recording, humanoid detection recording, timing recording
+- Smart image Enhance: 60DB WDR, Strong light suppression, face overexposure prevention, smart infrared
+- Smart code: Smart 265/264,Dynamic code stream, fixed code stream, low code stream
+- Proportional zoom: Support
+- Power-Off Memory: Support
+
+Network
+- Network protocol: IPv4, HTTP, HTTPS, FTP, SMTP, UPnP, SNMP, DNS, DDNS, NTP, RTSP, RTCP, RTP, TCP/IP, DHCP, PPPoE, RTSP
+- Application Programming: Support open API for software integration, support standard protocol (ONVIF), support Hikvision protocol and third-party management platform access
+- Browser: Support IE8+, Chrome31+, Firefox30+, Safari8.0+ browser
+- preview videos: MAX 3 user sametime preview
+- Wireless wifi: support wifi6
+- Time: time.windows.com, time.nist.gov, time.kriss.re.kr, time.nuri.net etc., Network Time Protocol
+
+Alarm
+- Snapshot: Support Remote timing snapshot
+- Motion detection: At most 4 respective regions
+- Humanoid detection: Support Humanoid detection record, snapshot, alarm ouput, tracking
+- Alarm linkage: E-mail Alarm and Send with Picture, Save Picture on the FTP Server(not support video), Relay out, alarm send message to mobile phone APP
+
+Record
+- Record: Support computer local record, Browser record, P2P client software record, NVR record
+- SD card: Not support
+
+Interface
+- Power interface: DC12V
+- Network: RJ45 10Base-T/100Base-TX, WIFI
+- Audio: Mic Build in camera, and support one 3W speaker
+- SD card: MAX support 512GB
+- Reset button: one external reset button
+
+General specification
+- Power: Max 3W
+- Working: -35℃-65℃; humidity is less than 90%
+- Protection grade: IP66 (When mounted in the specific cabinet); TVS 4000V lightning protection, anti-surge, anti-surge, in line with GB/T17626.5 level four standards
+- Weight: 0.3KG

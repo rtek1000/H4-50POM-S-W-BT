@@ -136,7 +136,9 @@ Note: This library is distributed in the hope that it will be useful, but WITHOU
 - Only the Pelco D output (9600 baud) available on the CN9 connector sends signal in TX. The Sony Visca output (9600 baud) does not work.
 - Wired connection (RJ45) has priority over wireless connection (Wi-Fi)
 - Sometimes the PTZ stop command may not be recognized by the Zoom/Focus controller interface. In this case, it is necessary to press the button again to send a new stop command. 
-  
+
+![img](https://raw.githubusercontent.com/rtek1000/H4-50POM-S-W-BT/refs/heads/main/Img/IP_Cam_PTZ_cfg.png)
+
 -----
 
 ## Pelco D output sample

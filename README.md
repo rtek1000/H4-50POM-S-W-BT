@@ -122,3 +122,9 @@ General specification
 Note: This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE
 - Information obtained from the public announcement of the product accessed in January 2025:
 - - https://www.aliexpress.com/item/1005008201046957.html
+
+-----
+
+Usage Notes:
+- The camera's PTZ setting must be left activated at 57600 baud and Pelco D type, otherwise the interface board will not recognize the commands and the optical zoom will not work.
+

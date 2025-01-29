@@ -143,6 +143,8 @@ Note 2: The function command is sent only once when the button is pressed.
 
 Note 3: The stop command is sent when the button is released.
 
+Note 4: Pelco D basic protocol: {Header/Sync: 0xFF} {Addr} {Cmd1} {Cmd2} {Dat1} {Dat2} {Checksum}
+
 ### Data sent when control is done via browser:
 (http://'ip_camera_address') [ip_camera_address: 192.168.1.112 etc]
 

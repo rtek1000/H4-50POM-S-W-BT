@@ -137,7 +137,7 @@ Note: This library is distributed in the hope that it will be useful, but WITHOU
 
 ![img](https://raw.githubusercontent.com/rtek1000/H4-50POM-S-W-BT/refs/heads/main/Img/IP_Cam3.png)
 
-- The camera's PTZ setting must be enabled at 57600 baud and Pelco type D (address 1), otherwise the interface board will not recognize the commands and the optical zoom will not work.
+- The camera's PTZ setting must be enabled at 57600 baud and Pelco type D (address 1), otherwise the interface board will not recognize the commands and the optical zoom will not work (PTZ step can be default: 3).
 - The main board has connectors (CN4, CN5) for 5-wire horizontal and vertical motors (12V positive power derived from the power input after protection diode). These connectors (CN4, CN5) only work when the camera is powered, but after initialization the PTZ controls do not drive these motors.
 - Only the Pelco D output (9600 baud) available on the CN9 connector sends signal in TX. The Sony Visca output (9600 baud) does not work.
 - Wired connection (RJ45) has priority over wireless connection (Wi-Fi)

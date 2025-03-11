@@ -143,6 +143,16 @@ Note: This library is distributed in the hope that it will be useful, but WITHOU
 
 -----
 
+## Note: Factory reset
+
+If the camera is completely reset (hardware reset, or factory reset), it may not be possible to identify the IP address that the camera will receive via DHCP, even using the "[Advanced IP Scanner](https://www.advanced-ip-scanner.com/)" program (tested on Windows 11).
+
+It may be possible to use a computer that has two network cards (for example a Notebook) and leave one network card (Wifi) shared, so that the other network card is a DHCP server (192.168.137.1), then it may be possible to use the "[Advanced IP Scanner](https://www.advanced-ip-scanner.com/)" program.
+
+The initial user is admin, and has no password (on the first login the camera should ask to set the password).
+
+-----
+
 ## Pelco D output sample
 (Captured using Hercules SETUP utility program)
 

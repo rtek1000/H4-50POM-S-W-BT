@@ -1,6 +1,8 @@
 # H4-50POM-S-W-BT
 H4-50POM-S/W/BT - IP Camera (EsunStar co., LTD)
 
+Warning: This camera has a defect in the ONVIF protocol, eventually the camera may crash if the ONVIF client sends adverse command. Another thing is about the manual control of the Lens Focus, although the camera supports manual Focus control via P6S protocol or via Browser, it was not implemented for ONVIF protocol.
+
 ![img](https://raw.githubusercontent.com/rtek1000/H4-50POM-S-W-BT/refs/heads/main/Img/IP_Cam1.png)
 
 - Model Number: JH4W-Q-180X

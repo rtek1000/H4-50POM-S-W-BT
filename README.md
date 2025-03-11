@@ -3,7 +3,7 @@ H4-50POM-S/W/BT - IP Camera (EsunStar co., LTD)
 
 -----
 
-Warning: this camera has a defect in the ONVIF protocol, eventually the camera may crash if the ONVIF client sends an adverse command. Another thing is about the manual control of the Lens Focus, although the camera accepts manual Focus control via P6S protocol or via Browser, it was not implemented for ONVIF protocol. The ODM (Onvif Device Manager) program can be used to check the absence of entries about Focus.
+Warning: this camera has a defect in the ONVIF protocol, eventually the camera may crash if the ONVIF client sends an adverse command (To regain access to images/settings the user must restart the camera). Another thing is about the manual control of the Lens Focus, although the camera accepts manual Focus control via P6S protocol or via Browser, it was not implemented for ONVIF protocol. The ODM (Onvif Device Manager) program can be used to check the absence of entries about Focus.
 
 -----
 
